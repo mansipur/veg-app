@@ -1,4 +1,5 @@
 "use client";
+import image1 from "../assets/flavour.png";
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
@@ -78,8 +79,8 @@ export function Layout372() {
             <div className="grid grid-cols-1 border border-border-primary sm:col-span-2 sm:row-span-1 sm:grid-cols-2">
               <div className="flex items-center justify-center">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-portrait.svg"
-                  alt="Relume placeholder image 3"
+                  src={image1}
+                  alt="Relume placeholder 3"
                   className="w-full object-cover"
                 />
               </div>

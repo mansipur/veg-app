@@ -1,4 +1,5 @@
 "use client";
+import image1 from "../assets/benefits1.png";
 
 import React from "react";
 
@@ -40,9 +41,9 @@ export function Layout6() {
           </div>
           <div>
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src={image1}
               className="w-full object-cover"
-              alt="Relume placeholder image"
+              alt="Relume placeholder"
             />
           </div>
         </div>
