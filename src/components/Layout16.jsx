@@ -20,12 +20,13 @@ export function Layout16() {
           <div>
             <p className="mb-3 font-semibold md:mb-4">Nourish</p>
             <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Discover the Health Benefits of Organic Vegetables
+              Unleash the Benefits of Organic Vegetables
             </h1>
             <p className="mb-5 text-base md:mb-6 md:text-md">
-              Organic vegetables are packed with essential nutrients that
-              support overall health. By choosing organic, you reduce exposure
-              to harmful pesticides and promote sustainable farming practices.
+              Organic vegetables are packed with essential nutrients and
+              antioxidants that promote overall health. By choosing organic, you
+              support sustainable farming practices and enjoy fresher produce
+              free from harmful chemicals.
             </p>
             <ul className="grid grid-cols-1 gap-4 py-2">
               <li className="flex self-start">
@@ -36,17 +37,7 @@ export function Layout16() {
                     className="size-6"
                   />
                 </div>
-                <span>Boost your immune system with organic nutrients.</span>
-              </li>
-              <li className="flex self-start">
-                <div className="mr-4 flex-none self-start">
-                  <img
-                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                    alt="Relume logo 1"
-                    className="size-6"
-                  />
-                </div>
-                <span>Enjoy fresher flavors and vibrant colors in meals.</span>
+                <span>Boost your immune system with organic nutrition.</span>
               </li>
               <li className="flex self-start">
                 <div className="mr-4 flex-none self-start">
@@ -57,8 +48,18 @@ export function Layout16() {
                   />
                 </div>
                 <span>
-                  Support local farmers and sustainable agriculture practices.
+                  Enjoy better taste and quality with organic choices.
                 </span>
+              </li>
+              <li className="flex self-start">
+                <div className="mr-4 flex-none self-start">
+                  <img
+                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
+                    alt="Relume logo 1"
+                    className="size-6"
+                  />
+                </div>
+                <span>Support local farmers and sustainable agriculture.</span>
               </li>
             </ul>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
