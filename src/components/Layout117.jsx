@@ -40,7 +40,7 @@ export function Layout117() {
           </div>
         </div>
         <img
-          src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
+          src="https://plus.unsplash.com/premium_photo-1681827284260-eb6f31f832f4?q=80&w=1947&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="w-full object-cover"
           alt="Relume placeholder image"
         />

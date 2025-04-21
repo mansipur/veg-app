@@ -7,7 +7,14 @@ export function Layout6() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
-        <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
+        <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">          
+          <div>
+            <img
+              src={image1}
+              className="w-full object-cover"
+              alt="Relume placeholder"
+            />
+          </div>
           <div>
             <h1 className="rb-5 mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
               Discover the Fresh Benefits of Choosing Organic Produce for Your
@@ -38,13 +45,6 @@ export function Layout6() {
                 </p>
               </div>
             </div>
-          </div>
-          <div>
-            <img
-              src={image1}
-              className="w-full object-cover"
-              alt="Relume placeholder"
-            />
           </div>
         </div>
       </div>

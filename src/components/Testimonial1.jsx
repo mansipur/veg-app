@@ -22,12 +22,12 @@ export function Testimonial1() {
           <div className="mt-6 flex flex-col items-center justify-center md:mt-8">
             <div className="mb-3 md:mb-4">
               <img
-                src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+                src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Testimonial avatar"
                 className="size-16 min-h-16 min-w-16 rounded-full object-cover"
               />
             </div>
-            <p className="font-semibold">Emily Johnson</p>
+            <p className="font-semibold">Emilet Johnson</p>
             <p>Home Chef, Blogger</p>
           </div>
         </div>
